@@ -1,0 +1,6 @@
+ipympl>=0.8.2
+ipywidgets>=7.6
+jupyterlite==0.1.0a18
+jupyterlite-p5-kernel==0.1.0a12
+jupyterlab~=3.2.0
+jupyterlab-miami-nights~=0.3.2
