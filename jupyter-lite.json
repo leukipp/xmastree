@@ -1,0 +1,49 @@
+{
+  "jupyter-config-data": {
+    "appName": "GIFT-Simulator",
+    "appUrl": "./lab",
+    "appVersion": "0.1.0-alpha.18",
+    "baseUrl": "./",
+    "collaborative": true,
+    "faviconUrl": "./files/simulator/img/favicon.png",
+    "federated_extensions": [
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.f6574b55a223d23e7a04.js",
+        "name": "@jupyter-widgets/jupyterlab-manager"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.4ba93726087006d2f61b.js",
+        "name": "@jupyterlite/p5-kernel-extension",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.145e469029155b53b350.js",
+        "name": "@timkpaine/jupyterlab_miami_nights"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.e32e81f2f9b7e026ac02.js",
+        "name": "jupyter-matplotlib"
+      }
+    ],
+    "fullLabextensionsUrl": "./lab/extensions",
+    "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js",
+    "fullStaticUrl": "./lab/build",
+    "mathjaxConfig": "TeX-AMS_CHTML-full,Safe",
+    "settingsOverrides": {
+      "@jupyterlab/apputils-extension:themes": {
+        "theme": "JupyterLab Miami Nights"
+      }
+    },
+    "settingsUrl": "./lab/build/schemas",
+    "themesUrl": "./lab/build/themes"
+  },
+  "jupyter-lite-schema-version": 0
+}

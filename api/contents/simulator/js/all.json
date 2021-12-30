@@ -1,0 +1,121 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.567466Z",
+      "mimetype": null,
+      "name": "controls",
+      "path": "simulator/js/controls",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.579467Z",
+      "mimetype": null,
+      "name": "pass",
+      "path": "simulator/js/pass",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.567466Z",
+      "mimetype": null,
+      "name": "common",
+      "path": "simulator/js/common",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.579467Z",
+      "mimetype": null,
+      "name": "utils",
+      "path": "simulator/js/utils",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "View.js",
+      "path": "simulator/js/View.js",
+      "size": 12229,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.571466Z",
+      "mimetype": null,
+      "name": "libraries",
+      "path": "simulator/js/libraries",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.579467Z",
+      "mimetype": null,
+      "name": "shader",
+      "path": "simulator/js/shader",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.567466Z",
+      "mimetype": null,
+      "name": "composer",
+      "path": "simulator/js/composer",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.575467Z",
+      "mimetype": null,
+      "name": "objects",
+      "path": "simulator/js/objects",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.579467Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.579467Z",
+  "mimetype": null,
+  "name": "js",
+  "path": "simulator/js",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

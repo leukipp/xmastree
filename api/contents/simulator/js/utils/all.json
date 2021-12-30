@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.848677Z",
+      "mimetype": "application/javascript",
+      "name": "LoaderUtils.js",
+      "path": "simulator/js/utils/LoaderUtils.js",
+      "size": 526,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.848677Z",
+      "mimetype": "application/javascript",
+      "name": "InputUtils.js",
+      "path": "simulator/js/utils/InputUtils.js",
+      "size": 1834,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.848677Z",
+      "mimetype": "application/javascript",
+      "name": "FileSystemUtils.js",
+      "path": "simulator/js/utils/FileSystemUtils.js",
+      "size": 2105,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.579467Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.579467Z",
+  "mimetype": null,
+  "name": "utils",
+  "path": "simulator/js/utils",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,73 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "Light.js",
+      "path": "simulator/js/objects/Light.js",
+      "size": 3300,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "Room.js",
+      "path": "simulator/js/objects/Room.js",
+      "size": 5763,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "Tree.js",
+      "path": "simulator/js/objects/Tree.js",
+      "size": 18117,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "Stage.js",
+      "path": "simulator/js/objects/Stage.js",
+      "size": 9613,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.575467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "Led.js",
+      "path": "simulator/js/objects/Led.js",
+      "size": 1903,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.575467Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.575467Z",
+  "mimetype": null,
+  "name": "objects",
+  "path": "simulator/js/objects",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

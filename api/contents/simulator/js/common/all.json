@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "helper.js",
+      "path": "simulator/js/common/helper.js",
+      "size": 8839,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "config.js",
+      "path": "simulator/js/common/config.js",
+      "size": 2275,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.567466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.567466Z",
+  "mimetype": null,
+  "name": "common",
+  "path": "simulator/js/common",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.800675Z",
+      "mimetype": "text/css",
+      "name": "styles.css",
+      "path": "simulator/css/styles.css",
+      "size": 948,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.543465Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.543465Z",
+  "mimetype": null,
+  "name": "css",
+  "path": "simulator/css",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

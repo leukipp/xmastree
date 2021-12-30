@@ -1,0 +1,37 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.848677Z",
+      "mimetype": "application/javascript",
+      "name": "CopyShader.js",
+      "path": "simulator/js/shader/CopyShader.js",
+      "size": 736,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.848677Z",
+      "mimetype": "application/javascript",
+      "name": "LuminosityHighPassShader.js",
+      "path": "simulator/js/shader/LuminosityHighPassShader.js",
+      "size": 1468,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.579467Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.579467Z",
+  "mimetype": null,
+  "name": "shader",
+  "path": "simulator/js/shader",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

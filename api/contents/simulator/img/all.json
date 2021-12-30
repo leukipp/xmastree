@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.551465Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.836677Z",
+      "mimetype": "image/gif",
+      "name": "app.gif",
+      "path": "simulator/img/app.gif",
+      "size": 5504165,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.563466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "image/png",
+      "name": "leaf.png",
+      "path": "simulator/img/leaf.png",
+      "size": 223002,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.563466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "image/png",
+      "name": "favicon.png",
+      "path": "simulator/img/favicon.png",
+      "size": 3586,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.563466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.563466Z",
+  "mimetype": null,
+  "name": "img",
+  "path": "simulator/img",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

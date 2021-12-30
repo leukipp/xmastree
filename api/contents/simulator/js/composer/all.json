@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "EffectComposer.js",
+      "path": "simulator/js/composer/EffectComposer.js",
+      "size": 7649,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.567466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.567466Z",
+  "mimetype": null,
+  "name": "composer",
+  "path": "simulator/js/composer",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

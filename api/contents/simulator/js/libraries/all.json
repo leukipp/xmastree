@@ -1,0 +1,97 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "filesaver.min.js",
+      "path": "simulator/js/libraries/filesaver.min.js",
+      "size": 4265,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "random.min.js",
+      "path": "simulator/js/libraries/random.min.js",
+      "size": 2704,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "papaparse.min.js",
+      "path": "simulator/js/libraries/papaparse.min.js",
+      "size": 19104,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.844677Z",
+      "mimetype": "application/javascript",
+      "name": "three.min.js",
+      "path": "simulator/js/libraries/three.min.js",
+      "size": 610980,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "jszip.min.js",
+      "path": "simulator/js/libraries/jszip.min.js",
+      "size": 95778,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "lil.gui.min.js",
+      "path": "simulator/js/libraries/lil.gui.min.js",
+      "size": 29293,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.571466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "stats.min.js",
+      "path": "simulator/js/libraries/stats.min.js",
+      "size": 1966,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.571466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.571466Z",
+  "mimetype": null,
+  "name": "libraries",
+  "path": "simulator/js/libraries",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

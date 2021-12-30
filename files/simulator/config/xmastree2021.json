@@ -1,0 +1,54 @@
+{
+    "coordinates": "https://raw.githubusercontent.com/standupmaths/xmastree2021/main/coords_2021.csv",
+    "_coordinates": [
+        "...",
+        "https://raw.githubusercontent.com/standupmaths/xmastree2021/main/coords_2021.csv",
+        "https://raw.githubusercontent.com/GSD6338/XmasTree/main/02_sequencing/coords_adjusted_normalized.csv"
+    ],
+    "animations": "https://raw.githubusercontent.com/GSD6338/XmasTree/main/02_sequencing/flush.csv",
+    "_animations": [
+        "...",
+        "https://raw.githubusercontent.com/GSD6338/XmasTree/main/02_sequencing/flush.csv"
+    ],
+    "fps": 60,
+    "loop": false,
+    "tree": {
+        "visible": true,
+        "scale": 80.0,
+        "levels": 8,
+        "twigScale": 0.10,
+        "branching": {
+            "initialBranchLength": 0.40,
+            "lengthFalloffFactor": 0.65,
+            "lengthFalloffPower": 0.75,
+            "clumpMax": 0.45,
+            "clumpMin": 0.35,
+            "branchFactor": 3.45,
+            "dropAmount": 0.00,
+            "growAmount": 0.45,
+            "sweepAmount": 0.00
+        },
+        "trunk": {
+            "maxRadius": 0.05,
+            "climbRate": 0.30,
+            "trunkKink": -0.03,
+            "treeSteps": 12.00,
+            "taperRate": 0.80,
+            "radiusFalloffRate": 0.75,
+            "twistRate": 16.00,
+            "trunkLength": 0.30
+        }
+    },
+    "light": {
+        "ambient": 10.0,
+        "led": 12.0,
+        "glow": true
+    },
+    "material": {
+        "tree": "0x613615",
+        "leaf": "0x557755",
+        "ground": "0xffffff",
+        "background": "0x2f2a46"
+    },
+    "rotation": 1.0
+}

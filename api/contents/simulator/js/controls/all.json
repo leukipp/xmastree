@@ -1,0 +1,25 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.567466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "application/javascript",
+      "name": "OrbitControls.js",
+      "path": "simulator/js/controls/OrbitControls.js",
+      "size": 25696,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.567466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.567466Z",
+  "mimetype": null,
+  "name": "controls",
+  "path": "simulator/js/controls",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

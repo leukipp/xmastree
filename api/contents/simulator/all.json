@@ -1,0 +1,109 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.543465Z",
+      "mimetype": null,
+      "name": "font",
+      "path": "simulator/font",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.563466Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.563466Z",
+      "mimetype": null,
+      "name": "img",
+      "path": "simulator/img",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.800675Z",
+      "mimetype": null,
+      "name": "LICENSE",
+      "path": "simulator/LICENSE",
+      "size": 1063,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.543465Z",
+      "mimetype": null,
+      "name": "config",
+      "path": "simulator/config",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.543465Z",
+      "mimetype": null,
+      "name": "css",
+      "path": "simulator/css",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.563466Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.840677Z",
+      "mimetype": "text/html",
+      "name": "index.html",
+      "path": "simulator/index.html",
+      "size": 2337,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.579467Z",
+      "format": null,
+      "last_modified": "2021-12-30T23:00:08.579467Z",
+      "mimetype": null,
+      "name": "js",
+      "path": "simulator/js",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2021-12-30T23:00:08.543465Z",
+      "format": null,
+      "last_modified": "2021-12-30T22:59:19.800675Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "simulator/README.md",
+      "size": 2748,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2021-12-30T23:00:08.567466Z",
+  "format": "json",
+  "last_modified": "2021-12-30T23:00:08.567466Z",
+  "mimetype": null,
+  "name": "simulator",
+  "path": "simulator",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
