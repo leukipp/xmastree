@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - development
   pull_request:
     branches:
       - '*'
@@ -32,7 +32,7 @@ jobs:
           path: ./jupyter/.out
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/development'
     needs: [build]
     runs-on: ubuntu-latest
     steps:
