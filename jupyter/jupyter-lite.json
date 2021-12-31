@@ -1,7 +1,7 @@
 {
     "jupyter-config-data": {
         "appName": "GIFT-Development",
-        "faviconUrl": "./img/favicon.png",
+        "faviconUrl": "./files/simulator/img/favicon.png",
         "collaborative": true
     },
     "jupyter-lite-schema-version": 0
