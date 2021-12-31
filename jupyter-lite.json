@@ -1,11 +1,11 @@
 {
   "jupyter-config-data": {
-    "appName": "GIFT-Simulator",
+    "appName": "GIFT-Development",
     "appUrl": "./lab",
     "appVersion": "0.1.0-alpha.18",
     "baseUrl": "./",
     "collaborative": true,
-    "faviconUrl": "./files/simulator/img/favicon.png",
+    "faviconUrl": "./img/favicon.png",
     "federated_extensions": [
       {
         "extension": "./extension",
