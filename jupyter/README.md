@@ -1,24 +1,18 @@
-# JupyterLite Demo
+# GIFTIDEv1.0
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+This folder contains an integrated development environment used for Matt's 2021 Christmas tree, as featured in ["My 500-LED xmas tree got into Harvard."](https://youtu.be/WuMRJf6B5Q4).
 
-
-## ✨ Try it in your browser ✨
-
-➡️ **https://leukipp.github.io/jupyterlite/**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+Jupyter notebooks with `python`, `javascript` and `p5.js` kernels can be used to develop and visualize light animations.  
+A simple http server is sufficient to run the integrated development environment, no other backend is needed.  
 
 
-### Further Information and Updates
+## Online [![browser](https://img.shields.io/badge/browser-gray?logo=googlechrome&logoColor=white)](#Online) [![status](https://img.shields.io/badge/status-up-brightgreen)](#Online)
 
-For more info, keep an eye on the JupyterLite documentation:
-
-- Configuring: https://jupyterlite.readthedocs.io/en/latest/configuring.html
-- Deploying: https://jupyterlite.readthedocs.io/en/latest/deploying.html
+An online version of the integrated development environment can be found [here](https://leukipp.github.io/xmastree/lab/).
+[![app](/jupyter/img/app.gif)](https://leukipp.github.io/xmastree/lab/)
 
 
-## Development
+## Setup [![github](https://img.shields.io/badge/github-gray?logo=github&logoColor=white)](#Setup) [![html](https://img.shields.io/badge/jupyter-gray?logo=jupyter&logoColor=white)](#Setup)
 
 Create a new environment:
 
@@ -33,3 +27,19 @@ Serve a locally-hosted JupyterLite site:
 ```bash
 jupyter lite serve --lite-dir ./jupyter --output-dir ./jupyter/.out
 ```
+
+
+## Legal [![download](https://img.shields.io/badge/download-free-lightgrey)](#Legal)
+
+Although JupyterLite is currently being developed by core Jupyter developers, the project is still _unofficial_.
+
+Not all the usual features available in JupyterLab and the Classic Notebook will work
+with JupyterLite, but many already do!
+
+Don't hesitate to check out the [documentation](https://jupyterlite.readthedocs.io/en/latest/user-guide.html#frequently-asked-questions)
+for more information and project updates.
+
+
+## License [![license](https://img.shields.io/badge/license-MIT-green)](#License)
+
+[MIT](/jupyter/LICENSE)
