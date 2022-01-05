@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2021-12-31T00:15:23.350749Z",
+      "created": "2022-01-05T19:46:40.883658Z",
       "format": null,
-      "last_modified": "2021-12-31T00:14:34.730328Z",
+      "last_modified": "2022-01-05T19:45:54.851062Z",
       "mimetype": "application/json",
       "name": "xmastree2021.json",
       "path": "simulator/config/xmastree2021.json",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2021-12-31T00:15:23.350749Z",
+  "created": "2022-01-05T19:46:40.883658Z",
   "format": "json",
-  "last_modified": "2021-12-31T00:15:23.350749Z",
+  "last_modified": "2022-01-05T19:46:40.883658Z",
   "mimetype": null,
   "name": "config",
   "path": "simulator/config",
