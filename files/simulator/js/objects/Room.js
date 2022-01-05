@@ -35,6 +35,16 @@ class Room {
             });
             this.stage.status('Loading', 75);
 
+            // add axes helper
+            const axes = new THREE.AxesHelper(6);
+            const scale = new THREE.Vector3(1, 1, -1);
+            const corner = new THREE.Vector3(-3, 0, 3);
+            axes.scale.multiply(scale);
+            axes.position.copy(corner);
+            setLayer(axes, this.stage.layer.ground);
+            this.scene.add(axes);
+
+            // html input event for coordinates
             this.input.coords.addEventListener('input', async () => {
                 const positions = await this.input.loadCoords();
                 this.lights.forEach((light) => {
@@ -44,6 +54,7 @@ class Room {
                 });
             });
 
+            // html input event for animations
             this.input.frames.addEventListener('input', async () => {
                 const frames = await this.input.loadFrames();
                 this.lights.forEach((light) => {
@@ -176,7 +187,17 @@ class Room {
     }
 
     async export(zip) {
-        // TODO
+        const room = zip.folder('room');
+
+        // export coordinates
+        if (this.input.loadedCoords) {
+            room.file('coordinates.csv', this.input.loadedCoords.map((x) => { return x.join(','); }).join('\n'));
+        }
+
+        // export animations
+        if (this.input.loadedFrames) {
+            room.file('animations.csv', this.input.loadedFrames.map((x) => { return x.join(','); }).join('\n'));
+        }
     }
 
     async reset() {

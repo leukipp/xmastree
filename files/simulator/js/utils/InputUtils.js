@@ -4,6 +4,9 @@ class InputUtils {
 
         this.coords = this.root.querySelector('#coords');
         this.frames = this.root.querySelector('#frames');
+
+        this.loadedCoords = null;
+        this.loadedFrames = null;
     }
 
     async loadCoords(url) {
@@ -16,8 +19,11 @@ class InputUtils {
                 dynamicTyping: true,
                 skipEmptyLines: true,
                 complete: (results) => {
-                    const hasHeader = getType(results.data[0][0]) === 'string';
-                    const positions = !hasHeader ? results.data : results.data.slice(1);
+                    this.loadedCoords = results.data;
+
+                    // check header
+                    const hasHeader = getType(this.loadedCoords[0][0]) === 'string';
+                    const positions = !hasHeader ? this.loadedCoords : this.loadedCoords.slice(1);
 
                     // reset input value
                     this.coords.value = null;
@@ -39,8 +45,11 @@ class InputUtils {
                 dynamicTyping: true,
                 skipEmptyLines: true,
                 complete: (results) => {
-                    const hasHeader = getType(results.data[0][0]) === 'string';
-                    const frames = !hasHeader ? results.data : results.data.slice(1);
+                    this.loadedFrames = results.data;
+
+                    // check header
+                    const hasHeader = getType(this.loadedFrames[0][0]) === 'string';
+                    const frames = !hasHeader ? this.loadedFrames : this.loadedFrames.slice(1);
 
                     // reset input value
                     this.frames.value = null;
