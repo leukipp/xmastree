@@ -106,13 +106,6 @@ class View {
             const frames = await this.room.input.loadFrames(v);
             this.room.lights.forEach((light) => {
                 light.animateFrames(frames);
-
-                // set frame progress range
-                for (const controller of this.gui.controllersRecursive()) {
-                    if (controller.property === 'frame') {
-                        controller.max(frames.length);
-                    }
-                };
             });
             this.stage.status('Loading', 100);
         }).listen();
