@@ -95,7 +95,7 @@ class Stage {
 
             // orbiter controls
             this.controls = new THREE.MapControls(this.camera, this.renderer.domElement);
-            this.controls.autoRotateSpeed = this.config.rotation;
+            this.controls.autoRotateSpeed = -this.config.rotation;
             this.controls.autoRotate = !!this.config.rotation;
             this.controls.minDistance = 0.1;
             this.controls.maxDistance = 20;
@@ -161,9 +161,8 @@ class Stage {
             this.delta = this.delta % delta;
 
             // adjust rotation speed
-            const rotation = this.config.rotation * (30 / truncatedMean(this.fps, 0.0))
             this.controls.autoRotate = !!this.config.rotation;
-            this.controls.autoRotateSpeed = rotation;
+            this.controls.autoRotateSpeed = -this.config.rotation * (30 / truncatedMean(this.fps, 0.0));
         }
     }
 

@@ -6,7 +6,8 @@ const setLayer = (object, layer) => {
 const onLayer = (object, layer) => {
     const testLayer = new THREE.Layers();
     testLayer.set(layer);
-    return object.isMesh ? testLayer.test(object.layers) : null;
+    const check = ['Mesh', 'AxesHelper'];
+    return check.includes(object.type) ? testLayer.test(object.layers) : null;
 };
 
 const createFloatAttribute = (array, itemSize) => {

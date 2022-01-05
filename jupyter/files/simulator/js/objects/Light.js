@@ -36,7 +36,7 @@ class Light {
             const [x_offset, y_offset, z_offset] = [0.0, 0.3, 0.0];
 
             // add led to stage
-            await this.addLed(new THREE.Vector3(x + x_offset, y + y_offset, z + z_offset));
+            await this.addLed(new THREE.Vector3(x + x_offset, y + y_offset, -z + z_offset));
         }
 
         // update center position
