@@ -176,7 +176,17 @@ class Room {
     }
 
     async export(zip) {
-        // TODO
+        const room = zip.folder('room');
+
+        // export coordinates
+        if (this.input.loadedCoords) {
+            room.file('coordinates.csv', this.input.loadedCoords.map((x) => { return x.join(','); }).join('\n'));
+        }
+
+        // export animations
+        if (this.input.loadedFrames) {
+            room.file('animations.csv', this.input.loadedFrames.map((x) => { return x.join(','); }).join('\n'));
+        }
     }
 
     async reset() {
