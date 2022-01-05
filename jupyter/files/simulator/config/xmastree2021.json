@@ -10,6 +10,7 @@
         "...",
         "https://raw.githubusercontent.com/GSD6338/XmasTree/main/02_sequencing/flush.csv"
     ],
+    "frame": 0,
     "fps": 60,
     "loop": false,
     "tree": {

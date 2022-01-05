@@ -98,7 +98,7 @@ class Stage {
             this.controls.autoRotateSpeed = this.config.rotation;
             this.controls.autoRotate = !!this.config.rotation;
             this.controls.minDistance = 0.1;
-            this.controls.maxDistance = 500;
+            this.controls.maxDistance = 20;
             this.controls.enablePan = true;
 
             // user interface

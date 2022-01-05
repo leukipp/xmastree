@@ -59,17 +59,23 @@ class Light {
         this.stopped = frames.length == 0;
 
         do {
-            for (const frame of frames) {
+            for (let i = 0; i < frames.length; i++) {
+                const frame = frames[i];
+
+                // validate input
                 const colors = frame.slice().chunk(3);
                 if (colors.length != this.leds.length) {
                     log('warn', `colors length ${colors.length} != leds length ${this.leds.length}`)
                     return;
                 }
 
-                // set colors
+                // set frame progress value
+                this.config.frame = i + 1;
+
+                // set colors from current frame
                 await this.setFrame(colors);
 
-                // aim framerate
+                // pause to aim given framerate
                 await sleep(1000 / this.config.fps);
 
                 // pause execution
