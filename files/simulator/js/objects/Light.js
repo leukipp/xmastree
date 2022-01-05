@@ -58,6 +58,13 @@ class Light {
         this.paused = false;
         this.stopped = frames.length == 0;
 
+        // set frame progress range
+        for (const controller of this.stage.view.gui.controllersRecursive()) {
+            if (controller.property === 'frame') {
+                controller.max(frames.length);
+            }
+        };
+
         do {
             for (let i = 0; i < frames.length; i++) {
                 const frame = frames[i];
