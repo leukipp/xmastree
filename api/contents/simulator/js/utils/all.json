@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-06T19:47:59.966170Z",
+      "created": "2022-01-06T20:08:43.805103Z",
       "format": null,
-      "last_modified": "2022-01-06T19:47:09.005903Z",
+      "last_modified": "2022-01-06T20:07:58.388577Z",
       "mimetype": "application/javascript",
       "name": "LoaderUtils.js",
       "path": "simulator/js/utils/LoaderUtils.js",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-06T19:47:59.966170Z",
+      "created": "2022-01-06T20:08:43.805103Z",
       "format": null,
-      "last_modified": "2022-01-06T19:47:09.005903Z",
+      "last_modified": "2022-01-06T20:07:58.388577Z",
       "mimetype": "application/javascript",
       "name": "InputUtils.js",
       "path": "simulator/js/utils/InputUtils.js",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-06T19:47:59.966170Z",
+      "created": "2022-01-06T20:08:43.801103Z",
       "format": null,
-      "last_modified": "2022-01-06T19:47:09.005903Z",
+      "last_modified": "2022-01-06T20:07:58.388577Z",
       "mimetype": "application/javascript",
       "name": "FileSystemUtils.js",
       "path": "simulator/js/utils/FileSystemUtils.js",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-06T19:47:59.966170Z",
+  "created": "2022-01-06T20:08:43.805103Z",
   "format": "json",
-  "last_modified": "2022-01-06T19:47:59.966170Z",
+  "last_modified": "2022-01-06T20:08:43.805103Z",
   "mimetype": null,
   "name": "utils",
   "path": "simulator/js/utils",

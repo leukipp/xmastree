@@ -15,16 +15,16 @@
     "loop": false,
     "tree": {
         "visible": true,
-        "scale": 80.0,
-        "levels": 8,
+        "scale": 72.0,
+        "levels": 7,
         "twigScale": 0.10,
         "branching": {
             "initialBranchLength": 0.40,
             "lengthFalloffFactor": 0.65,
-            "lengthFalloffPower": 0.75,
+            "lengthFalloffPower": 0.65,
             "clumpMax": 0.45,
             "clumpMin": 0.35,
-            "branchFactor": 3.45,
+            "branchFactor": 3.35,
             "dropAmount": 0.00,
             "growAmount": 0.45,
             "sweepAmount": 0.00
@@ -32,7 +32,7 @@
         "trunk": {
             "maxRadius": 0.05,
             "climbRate": 0.30,
-            "trunkKink": -0.03,
+            "trunkKink": 0.00,
             "treeSteps": 12.00,
             "taperRate": 0.80,
             "radiusFalloffRate": 0.75,

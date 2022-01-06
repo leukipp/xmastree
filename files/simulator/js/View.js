@@ -121,34 +121,34 @@ class View {
             treeFolder.add(this.config.tree, 'visible').listen(),
             treeFolder.add(this.config.tree, 'scale', 10, 100, 1),
             treeFolder.add(this.config.tree, 'levels', 0, 9, 1),
-            treeFolder.add(this.config.tree, 'twigScale', 0.0, 0.15, 0.05)
+            treeFolder.add(this.config.tree, 'twigScale', 0.0, 0.15, 0.01)
         ];
 
         // tree branching folder
         const branchingFolder = treeFolder.addFolder('Branching').close();
         const branchingFolders = [
-            branchingFolder.add(this.config.tree.branching, 'initialBranchLength', 0.1, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'lengthFalloffFactor', 0.1, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'lengthFalloffPower', 0.1, 1.5, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'clumpMax', 0.0, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'clumpMin', 0.0, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'branchFactor', 2.0, 5.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'dropAmount', -1.0, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'growAmount', -1.0, 1.0, 0.05),
-            branchingFolder.add(this.config.tree.branching, 'sweepAmount', -1.0, 1.0, 0.05)
+            branchingFolder.add(this.config.tree.branching, 'initialBranchLength', 0.1, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'lengthFalloffFactor', 0.1, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'lengthFalloffPower', 0.1, 1.5, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'clumpMax', 0.0, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'clumpMin', 0.0, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'branchFactor', 2.0, 5.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'dropAmount', -1.0, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'growAmount', -1.0, 1.0, 0.01),
+            branchingFolder.add(this.config.tree.branching, 'sweepAmount', -1.0, 1.0, 0.01)
         ];
 
         // tree trunk folder
         const trunkFolder = treeFolder.addFolder('Trunk').close();
         const trunkFolders = [
-            trunkFolder.add(this.config.tree.trunk, 'maxRadius', 0.05, 0.2, 0.05),
-            trunkFolder.add(this.config.tree.trunk, 'climbRate', 0.05, 2.0, 0.05),
-            trunkFolder.add(this.config.tree.trunk, 'trunkKink', 0.0, 0.5, 0.05),
-            trunkFolder.add(this.config.tree.trunk, 'treeSteps', 0.0, 20.0, 0.05),
-            trunkFolder.add(this.config.tree.trunk, 'taperRate', 0.7, 1.0, 0.05),
-            trunkFolder.add(this.config.tree.trunk, 'radiusFalloffRate', 0.5, 0.9, 0.05),
+            trunkFolder.add(this.config.tree.trunk, 'maxRadius', 0.01, 0.2, 0.01),
+            trunkFolder.add(this.config.tree.trunk, 'climbRate', 0.01, 2.0, 0.01),
+            trunkFolder.add(this.config.tree.trunk, 'trunkKink', -0.5, 0.5, 0.01),
+            trunkFolder.add(this.config.tree.trunk, 'treeSteps', 0.0, 20.0, 0.01),
+            trunkFolder.add(this.config.tree.trunk, 'taperRate', 0.7, 1.0, 0.01),
+            trunkFolder.add(this.config.tree.trunk, 'radiusFalloffRate', 0.5, 0.9, 0.01),
             trunkFolder.add(this.config.tree.trunk, 'twistRate', 0.0, 20.0, 1),
-            trunkFolder.add(this.config.tree.trunk, 'trunkLength', 0.1, 2.0, 0.05)
+            trunkFolder.add(this.config.tree.trunk, 'trunkLength', 0.1, 2.0, 0.01)
         ];
 
         // trees folders
@@ -164,10 +164,10 @@ class View {
 
         // light folder
         const lightFolder = this.gui.addFolder('Light').close();
-        lightFolder.add(this.config.light, 'ambient', 0.1, 30.0, 0.05).onChange((v) => {
+        lightFolder.add(this.config.light, 'ambient', 0.1, 30.0, 0.01).onChange((v) => {
             this.stage.update();
         }).listen();
-        lightFolder.add(this.config.light, 'led', 0.1, 30.0, 0.05).onChange((v) => {
+        lightFolder.add(this.config.light, 'led', 0.1, 30.0, 0.01).onChange((v) => {
             this.stage.update();
         }).listen();
         lightFolder.add(this.config.light, 'glow').onChange((v) => {
@@ -202,7 +202,7 @@ class View {
         }).listen();
 
         // stage actions
-        this.gui.add(this.config, 'rotation', 0.0, 20.0, 0.05).onChange((v) => {
+        this.gui.add(this.config, 'rotation', 0.0, 20.0, 0.01).onChange((v) => {
             this.stage.update();
         }).listen();
         this.gui.add(this, 'export');
