@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-06T19:01:21.011781Z",
+      "created": "2022-01-06T19:47:59.934170Z",
       "format": null,
-      "last_modified": "2022-01-06T19:00:37.643457Z",
+      "last_modified": "2022-01-06T19:47:08.957902Z",
       "mimetype": "application/json",
       "name": "opensans.json",
       "path": "simulator/font/opensans.json",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-06T19:01:21.011781Z",
+  "created": "2022-01-06T19:47:59.934170Z",
   "format": "json",
-  "last_modified": "2022-01-06T19:01:21.011781Z",
+  "last_modified": "2022-01-06T19:47:59.934170Z",
   "mimetype": null,
   "name": "font",
   "path": "simulator/font",
