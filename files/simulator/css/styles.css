@@ -55,7 +55,6 @@ html {
   z-index: 10;
   display: flex;
   position: absolute;
-  cursor: pointer;
   background: #1f1f1f;
 }
 
@@ -73,6 +72,7 @@ html {
   line-height: 28px;
   margin: 0px 5px 0px 5px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #main #code  {
@@ -82,7 +82,6 @@ html {
   z-index: 10;
   display: flex;
   position: absolute;
-  cursor: pointer;
   background: #1f1f1f;
 }
   
@@ -100,5 +99,6 @@ html {
   line-height: 28px;
   margin: 0px 5px 0px 5px;
   text-decoration: none;
+  cursor: pointer;
 }
   
