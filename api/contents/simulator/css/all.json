@@ -2,20 +2,32 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-05T23:21:28.259592Z",
+      "created": "2022-01-06T19:01:21.011781Z",
       "format": null,
-      "last_modified": "2022-01-05T23:20:37.077904Z",
+      "last_modified": "2022-01-06T19:00:37.639457Z",
       "mimetype": "text/css",
       "name": "styles.css",
       "path": "simulator/css/styles.css",
-      "size": 948,
+      "size": 1399,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-01-06T19:01:21.011781Z",
+      "format": null,
+      "last_modified": "2022-01-06T19:00:37.639457Z",
+      "mimetype": "text/css",
+      "name": "fa.min.css",
+      "path": "simulator/css/fa.min.css",
+      "size": 31000,
       "type": "file",
       "writable": true
     }
   ],
-  "created": "2022-01-05T23:21:28.259592Z",
+  "created": "2022-01-06T19:01:21.011781Z",
   "format": "json",
-  "last_modified": "2022-01-05T23:21:28.259592Z",
+  "last_modified": "2022-01-06T19:01:21.011781Z",
   "mimetype": null,
   "name": "css",
   "path": "simulator/css",
