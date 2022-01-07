@@ -23,6 +23,7 @@ jobs:
           python -m pip install -r ./jupyter/requirements.txt
       - name: Build jupyter lite
         run: |
+          cp ./jupyter/LICENSE ./jupyter/files
           cp ./jupyter/README.md ./jupyter/files
           jupyter lite build --lite-dir ./jupyter --output-dir ./jupyter/.out
       - name: Upload dist
