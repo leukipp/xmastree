@@ -48,7 +48,7 @@ class Light {
             const led = this.leds[i];
 
             // set led color
-            led.setColor(intColor(colors[i]));
+            await led.setColor(intColor(colors[i]));
         }
     }
 
