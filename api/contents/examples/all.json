@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-08T09:54:29.861853Z",
+      "created": "2022-01-08T11:08:17.810667Z",
       "format": null,
-      "last_modified": "2022-01-08T09:53:38.473514Z",
+      "last_modified": "2022-01-08T11:07:22.487530Z",
       "mimetype": null,
       "name": "antarctic_solar_eclipse.ipynb",
       "path": "examples/antarctic_solar_eclipse.ipynb",
-      "size": 11626,
+      "size": 11618,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-01-08T09:54:29.861853Z",
+      "created": "2022-01-08T11:08:17.810667Z",
       "format": null,
-      "last_modified": "2022-01-08T09:53:38.477514Z",
+      "last_modified": "2022-01-08T11:07:22.491530Z",
       "mimetype": null,
       "name": "carousel_gallopers.ipynb",
       "path": "examples/carousel_gallopers.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-08T09:54:29.861853Z",
+  "created": "2022-01-08T11:08:17.810667Z",
   "format": "json",
-  "last_modified": "2022-01-08T09:54:29.861853Z",
+  "last_modified": "2022-01-08T11:08:17.810667Z",
   "mimetype": null,
   "name": "examples",
   "path": "examples",

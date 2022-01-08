@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-08T09:54:29.877853Z",
+      "created": "2022-01-08T11:08:17.826668Z",
       "format": null,
-      "last_modified": "2022-01-08T09:53:38.525515Z",
+      "last_modified": "2022-01-08T11:07:22.539531Z",
       "mimetype": "image/gif",
       "name": "app.gif",
       "path": "simulator/img/app.gif",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-08T09:54:29.893853Z",
+      "created": "2022-01-08T11:08:17.838668Z",
       "format": null,
-      "last_modified": "2022-01-08T09:53:38.525515Z",
+      "last_modified": "2022-01-08T11:07:22.543531Z",
       "mimetype": "image/png",
       "name": "leaf.png",
       "path": "simulator/img/leaf.png",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-08T09:54:29.889853Z",
+      "created": "2022-01-08T11:08:17.838668Z",
       "format": null,
-      "last_modified": "2022-01-08T09:53:38.525515Z",
+      "last_modified": "2022-01-08T11:07:22.539531Z",
       "mimetype": "image/png",
       "name": "favicon.png",
       "path": "simulator/img/favicon.png",
@@ -37,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-08T09:54:29.889853Z",
+  "created": "2022-01-08T11:08:17.838668Z",
   "format": "json",
-  "last_modified": "2022-01-08T09:54:29.889853Z",
+  "last_modified": "2022-01-08T11:08:17.838668Z",
   "mimetype": null,
   "name": "img",
   "path": "simulator/img",
