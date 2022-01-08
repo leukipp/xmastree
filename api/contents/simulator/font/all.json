@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.063675Z",
+      "created": "2022-01-08T09:44:50.140278Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.250644Z",
+      "last_modified": "2022-01-08T09:44:05.220703Z",
       "mimetype": "image/svg+xml",
       "name": "fontawesome-webfont.svg",
       "path": "simulator/font/fontawesome-webfont.svg",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.067675Z",
+      "created": "2022-01-08T09:44:50.140278Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.250644Z",
+      "last_modified": "2022-01-08T09:44:05.220703Z",
       "mimetype": "font/woff",
       "name": "fontawesome-webfont.woff",
       "path": "simulator/font/fontawesome-webfont.woff",
@@ -26,9 +26,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.067675Z",
+      "created": "2022-01-08T09:44:50.140278Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.250644Z",
+      "last_modified": "2022-01-08T09:44:05.220703Z",
       "mimetype": "font/woff2",
       "name": "fontawesome-webfont.woff2",
       "path": "simulator/font/fontawesome-webfont.woff2",
@@ -38,9 +38,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.063675Z",
+      "created": "2022-01-08T09:44:50.140278Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.250644Z",
+      "last_modified": "2022-01-08T09:44:05.220703Z",
       "mimetype": "font/ttf",
       "name": "fontawesome-webfont.ttf",
       "path": "simulator/font/fontawesome-webfont.ttf",
@@ -50,9 +50,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.067675Z",
+      "created": "2022-01-08T09:44:50.144279Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.254645Z",
+      "last_modified": "2022-01-08T09:44:05.224703Z",
       "mimetype": "application/json",
       "name": "opensans.json",
       "path": "simulator/font/opensans.json",
@@ -62,9 +62,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-07T18:37:29.059675Z",
+      "created": "2022-01-08T09:44:50.140278Z",
       "format": null,
-      "last_modified": "2022-01-07T18:36:33.246644Z",
+      "last_modified": "2022-01-08T09:44:05.216702Z",
       "mimetype": "application/vnd.ms-fontobject",
       "name": "fontawesome-webfont.eot",
       "path": "simulator/font/fontawesome-webfont.eot",
@@ -73,9 +73,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-07T18:37:29.067675Z",
+  "created": "2022-01-08T09:44:50.144279Z",
   "format": "json",
-  "last_modified": "2022-01-07T18:37:29.067675Z",
+  "last_modified": "2022-01-08T09:44:50.144279Z",
   "mimetype": null,
   "name": "font",
   "path": "simulator/font",
