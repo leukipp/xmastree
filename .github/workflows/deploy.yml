@@ -20,7 +20,6 @@ jobs:
           python-version: 3.9
       - name: Install dependencies
         run: |
-          sudo apt-get install libcairo2
           python3 -m pip install -r ./jupyter/requirements.txt
       - name: Build jupyter lite
         run: |
