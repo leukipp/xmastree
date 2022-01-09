@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-08T23:20:07.602883Z",
+      "created": "2022-01-09T02:21:57.424737Z",
       "format": null,
-      "last_modified": "2022-01-08T23:19:24.382219Z",
+      "last_modified": "2022-01-09T02:21:12.256636Z",
       "mimetype": null,
       "name": "antarctic_solar_eclipse.ipynb",
       "path": "examples/antarctic_solar_eclipse.ipynb",
@@ -14,9 +14,21 @@
     },
     {
       "content": null,
-      "created": "2022-01-08T23:20:07.602883Z",
+      "created": "2022-01-09T02:21:57.424737Z",
       "format": null,
-      "last_modified": "2022-01-08T23:19:24.382219Z",
+      "last_modified": "2022-01-09T02:21:12.256636Z",
+      "mimetype": null,
+      "name": "rocket_launch.ipynb",
+      "path": "examples/rocket_launch.ipynb",
+      "size": 9082,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-01-09T02:21:57.424737Z",
+      "format": null,
+      "last_modified": "2022-01-09T02:21:12.256636Z",
       "mimetype": null,
       "name": "carousel_gallopers.ipynb",
       "path": "examples/carousel_gallopers.ipynb",
@@ -25,9 +37,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-08T23:20:07.602883Z",
+  "created": "2022-01-09T02:21:57.424737Z",
   "format": "json",
-  "last_modified": "2022-01-08T23:20:07.602883Z",
+  "last_modified": "2022-01-09T02:21:57.424737Z",
   "mimetype": null,
   "name": "examples",
   "path": "examples",

@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-01-08T23:20:07.630884Z",
+      "created": "2022-01-09T02:21:57.452737Z",
       "format": null,
-      "last_modified": "2022-01-08T23:19:24.426219Z",
+      "last_modified": "2022-01-09T02:21:12.296638Z",
       "mimetype": "application/javascript",
       "name": "helper.js",
       "path": "simulator/js/common/helper.js",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-01-08T23:20:07.630884Z",
+      "created": "2022-01-09T02:21:57.448737Z",
       "format": null,
-      "last_modified": "2022-01-08T23:19:24.426219Z",
+      "last_modified": "2022-01-09T02:21:12.296638Z",
       "mimetype": "application/javascript",
       "name": "config.js",
       "path": "simulator/js/common/config.js",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-01-08T23:20:07.630884Z",
+  "created": "2022-01-09T02:21:57.448737Z",
   "format": "json",
-  "last_modified": "2022-01-08T23:20:07.630884Z",
+  "last_modified": "2022-01-09T02:21:57.448737Z",
   "mimetype": null,
   "name": "common",
   "path": "simulator/js/common",
