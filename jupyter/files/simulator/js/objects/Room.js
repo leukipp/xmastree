@@ -37,7 +37,7 @@ class Room {
 
             // add axes helper
             const axes = new THREE.AxesHelper(6);
-            const scale = new THREE.Vector3(1, 1, -1);
+            const scale = new THREE.Vector3(1, 0, -1);
             const corner = new THREE.Vector3(-3, 0, 3);
             axes.scale.multiply(scale);
             axes.position.copy(corner);
